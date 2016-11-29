@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -19,6 +19,8 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/plugins/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugins/YTPlayer.css" rel="stylesheet" type="text/css" />
+
     <!-- SLIDER REVOLUTION CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
 
@@ -34,12 +36,14 @@
     <!-- Page Wraper -->
     <div id="page-wraper">
         <div class="wrapper">
+
+            <!-- Header -->
             <div id="header" class="header">
                 <div class="header-inner">
                     <!-- Logo -->
                     <div class="logo">
                         <a href="#">
-                            <img src="img/logo-light.png" />
+                            <img src="img/le_wagon_.png" />
                         </a>
                     </div>
                     <!-- End Logo -->
@@ -61,404 +65,39 @@
                             <li><a href="#client">Client</a></li>
                             <li><a href="#elements">Elements</a></li>
                             <li><a href="#contact-us">Contact</a></li>
-                            <li><a class="nav-external all-demos-link" href="" target="_blank">Demos</a></li>
+                            <li><a class="nav-external all-demos-link" target="_blank">Demos</a></li>
                         </ul>
                     </div>
                     <!-- End Navigation Menu -->
                 </div>
             </div>
+            <!-- End Header -->
+
             <!--Intro Section-->
-            <section id="intro">
-                <!--Slider Hero-->
-                <div class="tp-banner-container">
-                    <div class="intro-tp-banner">
-                        <ul>
-                            <!-- SLIDE  -->
-                            <li class="dark-bg" data-transition="fade" data-slotamount="5" data-masterspeed="700">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/full/28.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="top center" data-bgrepeat="no-repeat">
+            <section id="intro" class="intro-fullscreen bg-image" data-background-img="img/karma.png">
+                <!--Video Hero-->
+                <div class="intro-media overlay-dark20">
+                    <!-- youtube Video -->
+                    <div id="video"  class="ytp-player" data-property="{videoURL:'https://youtu.be/IBH97ma9YiI',containment:'#intro', showControls:false, autoPlay:true, loop:true, mute:false, startAt:6, opacity:1, addRaster:false, quality:'default'}"></div>
+                    <!-- End youtube Video -->
+                </div>
+                <div class="intro-caption-waper dark-bg">
+                    <div class="intro-full-height container">
+                        <div class="intro-content">
+                            <div class="intro-content-inner">
 
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption lfb ltt tp-resizeme"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-125"
-                                    data-speed="600"
-                                    data-start="500"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <img src="img/t-logo1.png" alt="logo" />
+                                <h6 class="page-title-alt mb-30">Learn Front End Development</h6>
 
-                                </div>
+                                <h1 class="intro-title mb-30">The Wagon by Night
+                                </h1>
 
-                                <!-- LAYER NR. 2 -->
-                                <h2 class="tp-caption lfb ltt tp-resizeme sc-title"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-25"
-                                    data-speed="600"
-                                    data-start="700"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">We Are Mazel One
-                                </h2>
-
-                                <!-- LAYER NR. 3 -->
-                                <p class="tp-caption lfb ltt tp-resizeme sc-paragraph-lead"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="40"
-                                    data-speed="600"
-                                    data-start="900"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    A donec sodales sagittis magna. Sed consequat, leo eget bibendum amet nibh<br />
-                                    sodales augue velit cursus nunc.
-                                </p>
-
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption lfb ltt tp-resizeme sc-button"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="125"
-                                    data-speed="600"
-                                    data-start="1100"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <a class="btn btn-md btn-black">Shop Now</a>
-                                </div>
-
-                            </li>
-
-                            <!-- SLIDE  -->
-                            <li class="dark-bg" data-transition="fade" data-slotamount="5" data-masterspeed="700">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/full/30.jpg" alt="slidebg2" data-bgfit="cover" data-bgposition="top center" data-bgrepeat="no-repeat">
-
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption lfb ltt tp-resizeme"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-125"
-                                    data-speed="600"
-                                    data-start="500"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <img src="img/t-logo1.png" alt="logo" />
-
-                                </div>
-
-                                <!-- LAYER NR. 2 -->
-                                <h2 class="tp-caption lfb ltt tp-resizeme sc-title"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-25"
-                                    data-speed="600"
-                                    data-start="700"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Flexible & Customizable
-                                </h2>
-
-                                <!-- LAYER NR. 3 -->
-                                <p class="tp-caption lfb ltt tp-resizeme sc-paragraph-lead"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="40"
-                                    data-speed="600"
-                                    data-start="900"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    A donec sodales sagittis magna. Sed consequat, leo eget bibendum amet nibh<br />
-                                    sodales augue velit cursus nunc.
-                                </p>
-
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption lfb ltt tp-resizeme sc-button"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="125"
-                                    data-speed="600"
-                                    data-start="1100"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <a class="btn btn-md btn-black">Shop Now</a>
-                                </div>
-
-                            </li>
-
-                            <!-- SLIDE  -->
-                            <li class="dark-bg" data-transition="fade" data-slotamount="5" data-masterspeed="700">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/full/31.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="top center" data-bgrepeat="no-repeat">
-
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption lfb ltt tp-resizeme"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-125"
-                                    data-speed="600"
-                                    data-start="500"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <img src="img/t-logo1.png" alt="logo" />
-
-                                </div>
-
-                                <!-- LAYER NR. 2 -->
-                                <h2 class="tp-caption lfb ltt tp-resizeme sc-title"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-25"
-                                    data-speed="600"
-                                    data-start="700"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">I Am a John Doe
-                                </h2>
-
-                                <!-- LAYER NR. 3 -->
-                                <p class="tp-caption lfb ltt tp-resizeme sc-paragraph-lead"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="40"
-                                    data-speed="600"
-                                    data-start="900"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    A donec sodales sagittis magna. Sed consequat, leo eget bibendum amet nibh<br />
-                                    sodales augue velit cursus nunc.
-                                </p>
-
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption lfb ltt tp-resizeme sc-button"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="125"
-                                    data-speed="600"
-                                    data-start="1100"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <a class="btn btn-md btn-black">Shop Now</a>
-                                </div>
-
-                            </li>
-
-                            <!-- SLIDE  -->
-                            <li class="dark-bg" data-transition="fade" data-slotamount="5" data-masterspeed="700">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/full/32.jpg" alt="slidebg4" data-bgfit="cover" data-bgposition="top center" data-bgrepeat="no-repeat">
-
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption lfb ltt tp-resizeme"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-125"
-                                    data-speed="600"
-                                    data-start="500"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <img src="img/t-logo1.png" alt="logo" />
-
-                                </div>
-
-                                <!-- LAYER NR. 2 -->
-                                <h2 class="tp-caption lfb ltt tp-resizeme sc-title"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-25"
-                                    data-speed="600"
-                                    data-start="700"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Welcome Studio
-                                </h2>
-
-                                <!-- LAYER NR. 3 -->
-                                <p class="tp-caption lfb ltt tp-resizeme sc-paragraph-lead"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="40"
-                                    data-speed="600"
-                                    data-start="900"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    A donec sodales sagittis magna. Sed consequat, leo eget bibendum amet nibh<br />
-                                    sodales augue velit cursus nunc.
-                                </p>
-
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption lfb ltt tp-resizeme sc-button"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="125"
-                                    data-speed="600"
-                                    data-start="1100"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <a class="btn btn-md btn-black">Shop Now</a>
-                                </div>
-
-                            </li>
-
-                            <!-- SLIDE  -->
-                            <li class="dark-bg" data-transition="fade" data-slotamount="5" data-masterspeed="700">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/full/35.jpg" alt="slidebg5" data-bgfit="cover" data-bgposition="top center" data-bgrepeat="no-repeat">
-
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption lfb ltt tp-resizeme"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-125"
-                                    data-speed="600"
-                                    data-start="500"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <img src="img/t-logo1.png" alt="logo" />
-
-                                </div>
-
-                                <!-- LAYER NR. 2 -->
-                                <h2 class="tp-caption lfb ltt tp-resizeme sc-title"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="-25"
-                                    data-speed="600"
-                                    data-start="700"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">I Am a John Doe
-                                </h2>
-
-                                <!-- LAYER NR. 3 -->
-                                <p class="tp-caption lfb ltt tp-resizeme sc-paragraph-lead"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="40"
-                                    data-speed="600"
-                                    data-start="900"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    A donec sodales sagittis magna. Sed consequat, leo eget bibendum amet nibh<br />
-                                    sodales augue velit cursus nunc.
-                                </p>
-
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption lfb ltt tp-resizeme sc-button"
-                                    data-x="center" data-hoffset="0"
-                                    data-y="center" data-voffset="125"
-                                    data-speed="600"
-                                    data-start="1100"
-                                    data-easing="Power4.easeOut"
-                                    data-splitin="none"
-                                    data-splitout="none"
-                                    data-elementdelay="0.01"
-                                    data-endelementdelay="0.1"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeIn"
-                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    <a class="btn btn-md btn-black">Shop Now</a>
-                                </div>
-
-                            </li>
-
-
-                        </ul>
-                        <div class="tp-bannertimer"></div>
+                                <a class="btn btn-md btn-color scroll-down" href="#about">I Wanna Know More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- End Slider Hero-->
+
+                <!-- End Video Hero-->
 
             </section>
             <!-- End Intro Section-->
@@ -466,31 +105,45 @@
             <!-- About Section -->
             <section id="about" class="section-padding text-center">
                 <div class="container mb-60">
-                    <h2>About <span class="text-light">Studio</span></h2>
-                    <p class="max-width-700 lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam.</p>
+                    <div class="row text-center">
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s" data-wow-duration="1s">
+                            <img src="img/lewagon.png" style="max-width: 457px; width: 100%;" alt="mockup" />
+                        </div>
+                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
+                            <div class="spacer-15"></div>
+                            <h6 class="page-title-alt color mb-10">Creative Agency</h6>
+                            <h2 class="page-title mb-25">Le Wagon <span class="text-light">One</span></h2>
+                            <p class="mb-35">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem eum fugiat quo reprehenderit qui in dignissim qui blandit ea voluptate velit esse quam suscipit lobortis nisldolore eu feugiat  praesent luptatum nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.</p>
+                            <img src="img/signature.png" alt="signature" />
+                        </div>
+                    </div>
                 </div>
+            </section>
+            <!-- End About Section -->
 
+            <!-- About Section 2 -->
+            <section id="about2" class="section-padding text-center gray-bg">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-12 content-box mb-sm-30 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
-                            <div class="icon-top"><i class="icon icon-basic-anchor"></i></div>
+                            <div class="icon-top icon-black"><i class="icon icon-basic-anchor"></i></div>
                             <h5 class="features-title">We’re Creative</h5>
                             <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem eum fugiat quo.</p>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 content-box mb-sm-30 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
-                            <div class="icon-top"><i class="icon icon-basic-alarm"></i></div>
+                            <div class="icon-top icon-black"><i class="icon icon-basic-alarm"></i></div>
                             <h5 class="features-title">TWe have magic</h5>
                             <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem eum fugiat quo.</p>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 content-box mb-sm-30 wow fadeIn" data-wow-delay="0.6s" data-wow-duration="2s">
-                            <div class="icon-top"><i class="icon icon-basic-globe"></i></div>
+                            <div class="icon-top icon-black"><i class="icon icon-basic-globe"></i></div>
                             <h5 class="features-title">Why we do it</h5>
                             <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem eum fugiat quo.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- End About Section -->
+            <!-- End About Section 2 -->
 
             <!-- Statement1 Section -->
             <section id="Statement1" class="section-padding bg-image overlay-dark dark-bg text-center" data-stellar-background-ratio="0.5" data-background-img="img/full/33.jpg">
@@ -750,21 +403,21 @@
                             <div class="testimonial text-center max-width-700">
                                 <div class="page-icon-sm"><i class="fa fa-quote-right"></i></div>
                                 <p class="lead">I got a dummy for Christmas and started teaching myself. I got books and records and sat in front of the practising.</p>
-                                <h6 class="quote-author">Jeff Dunham <span style="font-weight: 400;">( Appel Studio )</span></h6>
+                                <h6 class="quote-author">Jeff Dunham <span class="text-regular">( Appel Studio )</span></h6>
                             </div>
                         </div>
                         <div class="item">
                             <div class="testimonial text-center max-width-700">
                                 <div class="page-icon-sm"><i class="fa fa-quote-right"></i></div>
                                 <p class="lead">you can never eat a pet you name. And anyway, I did my first show in the third grade it would be like a ventriloquist.</p>
-                                <h6 class="quote-author">Alexander Theroux <span style="font-weight: 400;">( USA )</span></h6>
+                                <h6 class="quote-author">Alexander Theroux <span class="text-regular">( USA )</span></h6>
                             </div>
                         </div>
                         <div class="item">
                             <div class="testimonial text-center max-width-700">
                                 <div class="page-icon-sm"><i class="fa fa-quote-right"></i></div>
                                 <p class="lead">We're not leaving here without Buster, man. Leave no crash-test dummy behind!</p>
-                                <h6 class="quote-author">Adam Savage <span style="font-weight: 400;">( Artist )</span></h6>
+                                <h6 class="quote-author">Adam Savage <span class="text-regular">( Artist )</span></h6>
                             </div>
                         </div>
                     </div>
@@ -1729,7 +1382,7 @@
                     <!--Footer Logo-->
                     <div class="footer-logo mb-25 wow fadeInUp" data-wow-duration="1.5s">
                         <a class="scroll-top" href="#intro">
-                            <img src="img/logo-dark.png" alt="mazel" />
+                            <img src="img/le_wagon_.png" alt="LeWagon" />
                         </a>
                     </div>
                     <!--End Footer Logo-->
@@ -1782,6 +1435,7 @@
     <script src="rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
     <!-- End SLIDER REVOLUTION SCRIPTS  -->
     <script src="js/plugins/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="js/plugins/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
     <script src="js/plugins/jquery.singlePageNav.min.js" type="text/javascript"></script>
     <script src="js/plugins/wow.min.js" type="text/javascript"></script>
     <script src="js/plugins/jquery.validate.min.js" type="text/javascript"></script>
@@ -1789,5 +1443,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
     <script src="js/map.js" type="text/javascript"></script>
     <script src="js/theme.js" type="text/javascript"></script>
+
+
 </body>
 </html>
